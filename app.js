@@ -14,7 +14,6 @@ const Cron = require("./src/utils/cron/cron");
 const app = express();
 
 mechanic = {
-  //env: process.env.NODE_ENV === "production" ? "production" : "development",
   config: Config,
   models: {},
   services: Services,
